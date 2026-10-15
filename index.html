@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jihao Li 的个人学术与工程主页" />
+    <title>Jihao Li | Academic Homepage</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data.js" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#content" data-i18n="common.skip">跳到主要内容</a>
+    <header class="topbar">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="site-name" href="./index.html">Jihao Li's Homepage</a>
+        <div class="nav-links">
+          <a href="#about" data-i18n="nav.about">关于</a>
+          <a href="#publications" data-i18n="nav.publications">论文</a>
+          <a href="#projects" data-i18n="nav.projects">项目</a>
+          <a href="#experience" data-i18n="nav.experience">经历</a>
+          <button class="language-toggle" type="button" data-lang-toggle aria-label="Switch language">EN</button>
+        </div>
+      </nav>
+    </header>
+    <div class="page-shell">
+      <aside class="profile-column" aria-label="Profile">
+        <div class="portrait-research" aria-label="Medical imaging research visual">
+          <img src="./assets/stain-normalization-comparison.png" alt="Histopathology image comparison" />
+          <span>JL</span>
+        </div>
+        <h1>李纪浩 <span>(Jihao Li)</span></h1>
+        <p class="profile-role" data-i18n="profile.role">AI 研究者与全栈工程师</p>
+        <p class="profile-affiliation" data-i18n="profile.affiliation">香港理工大学</p>
+        <div class="profile-contact">
+          <a href="mailto:cuhk_ljh@126.com"><strong>Email:</strong> cuhk_ljh@126.com</a>
+          <a href="https://github.com/ljhOfGithub" target="_blank" rel="noreferrer"><strong>GitHub:</strong> ljhOfGithub</a>
+          <a href="tel:+85296068934"><strong data-i18n="profile.phone">电话:</strong> +852 9606 8934</a>
+        </div>
+        <div class="profile-downloads">
+          <a href="./downloads/Jihao-Li-Resume.pdf" target="_blank" data-i18n="profile.resume">简历 PDF</a>
+          <a href="./downloads/Jihao-Li-Research-Presentation.pptx" download data-i18n="profile.slides">研究汇报 PPTX</a>
+        </div>
+      </aside>
+      <main class="content-column" id="content">
+        <section id="about" class="content-section intro-section">
+          <h2>👋 <span data-i18n="about.title">自我介绍</span></h2>
+          <p class="intro-lead" data-i18n="about.lead">我关注医学影像、人工智能系统与全栈工程，习惯从问题定义、实验验证一直做到可使用的软件系统。</p>
+          <p data-i18n="about.body">当前工作聚焦双语 AI 语言评估平台。此前的研究覆盖数字病理、3D 医学图像分割、染色归一化与 WSI 生存预测。我希望把严谨的研究证据转化为稳定、可维护的产品能力。</p>
+        </section>
+        <section class="content-section" id="education">
+          <h2>🎓 <span data-i18n="education.title">教育背景</span></h2>
+          <ul class="education-list">
+            <li><strong data-i18n="education.cuhk.degree">计算机科学理学硕士</strong><span data-i18n="education.cuhk.school">香港中文大学</span><time>2024–2025</time><small data-i18n="education.cuhk.detail">GPA 3.3/4.0，Academic Excellence Scholarship</small></li>
+            <li><strong data-i18n="education.bupt.degree">软件工程工学学士</strong><span data-i18n="education.bupt.school">北京邮电大学</span><time>2018–2022</time><small data-i18n="education.bupt.detail">GPA 3.63/4.0，National Endeavor Scholarship</small></li>
+          </ul>
+        </section>
+        <section class="content-section" id="research-interests">
+          <h2>🧪 <span data-i18n="interests.title">研究方向</span></h2>
+          <p><strong data-i18n="interests.items">医学影像分析、数字病理、多模态 AI、图神经网络、AI 教育系统</strong></p>
+        </section>
+        <section class="content-section" id="publications">
+          <h2>📝 <span data-i18n="publications.title">代表性论文</span></h2>
+          <div class="academic-timeline">
+            <article class="publication-item">
+              <div class="publication-meta"><strong>2026</strong><span>Manuscript</span></div>
+              <div><p class="authors">C. Chen*, <strong>J. Li*</strong>, Z. Wen, T. Zhang, D. Zou, J. Cao</p><h3><a href="./paper.html?id=polypresentation">PolyPresentation: A Multimodal AI Platform for Slide-Aware Iterative Presentation Practice</a></h3><p data-i18n="publications.polypresentation.venue">BESC 2026 手稿，* 共同一作</p><p class="entry-links"><a href="./paper.html?id=polypresentation" data-i18n="common.details">查看详情</a><a href="./papers/source/polypresentation.pdf" target="_blank" data-i18n="common.paper">原文 PDF</a></p></div>
+            </article>
+            <article class="publication-item">
+              <div class="publication-meta"><strong>2025</strong><span>Journal</span></div>
+              <div><p class="authors">H. Yang, M. Lyu, S. Yan, T. Zhong, <strong>J. Li</strong>, T. Xu, H. Xie, S. Liu</p><h3><a href="./paper.html?id=sastaindiff">SAStainDiff: Self-supervised Stain Normalization by Stain Augmentation using Denoising Diffusion Probabilistic Models</a></h3><p data-i18n="publications.sastaindiff.venue">Biomedical Signal Processing and Control</p><p class="entry-links"><a href="./paper.html?id=sastaindiff" data-i18n="common.details">查看详情</a><a href="./papers/source/sastaindiff.pdf" target="_blank" data-i18n="common.paper">原文 PDF</a></p></div>
+            </article>
+            <article class="publication-item">
+              <div class="publication-meta"><strong>2024</strong><span>IEEE ISBI</span></div>
+              <div><p class="authors">T. Zhong, H. Yang, <strong>J. Li</strong>, M. Lyu, S. Liu</p><h3><a href="./paper.html?id=waveu3s">WaveU3S: A Lightweight Wavelet Dual-Attention Unet for 3D Medical Image Segmentation</a></h3><p data-i18n="publications.waveu3s.venue">IEEE International Symposium on Biomedical Imaging</p><p class="entry-links"><a href="./paper.html?id=waveu3s" data-i18n="common.details">查看详情</a><a href="./papers/source/waveu3s.pdf" target="_blank" data-i18n="common.paper">原文 PDF</a></p></div>
+            </article>
+          </div>
+        </section>
+        <section class="content-section" id="projects">
+          <h2>🔬 <span data-i18n="projects.title">研究与项目</span></h2>
+          <div class="project-list">
+            <article><img src="./assets/wsi-survival-framework.png" alt="WSI survival prediction framework" /><div><h3><a href="./paper.html?id=wsi-survival">Deep Learning Based Methods in Whole Slide Image Survival Prediction: A Survey</a></h3><p data-i18n="projects.wsi">系统梳理 150+ 篇论文与 64 种方法，提出三阶段框架，并在 5 个 TCGA 数据集上比较 10 种方法。</p><p class="entry-links"><a href="./paper.html?id=wsi-survival" data-i18n="common.details">查看详情</a><a href="https://github.com/ljhOfGithub/SurvivalPredictionResearch" target="_blank" rel="noreferrer">GitHub</a></p></div></article>
+            <article><div class="project-mark" aria-hidden="true">GNN</div><div><h3 data-i18n="projects.fraud.title">以太坊交易欺诈检测工具</h3><p data-i18n="projects.fraud.body">整理 24,835 个地址，设计 13 类图结构与交易特征；TAGCN 达到 93.18% 准确率和 88.96% 召回率。</p><p class="entry-links"><a href="https://github.com/ljhOfGithub/BachelorGraduationDesign" target="_blank" rel="noreferrer">GitHub</a></p></div></article>
+          </div>
+        </section>
+        <section class="content-section" id="experience">
+          <h2>💼 <span data-i18n="experience.title">工作经历</span></h2>
+          <div class="academic-timeline">
+            <article class="work-item"><div class="publication-meta"><strong>2026–</strong><span data-i18n="experience.present">至今</span></div><div><h3><a href="./work.html?id=polyu">Project Associate</a></h3><p><strong data-i18n="experience.polyu.org">香港理工大学</strong></p><p data-i18n="experience.polyu.summary">开发并维护双语 AI 语言评估平台 LCCA。</p><p class="entry-links"><a href="./work.html?id=polyu" data-i18n="common.workDetails">具体工作</a></p></div></article>
+            <article class="work-item"><div class="publication-meta"><strong>2024–25</strong><span>Full Stack</span></div><div><h3><a href="./work.html?id=future-t">Full Stack Software Engineer</a></h3><p><strong>Future-T Technology HK Co. Ltd.</strong></p><p data-i18n="experience.future.summary">交付高校电子表单、CRM、课程管理与生产流程可视化系统。</p><p class="entry-links"><a href="./work.html?id=future-t" data-i18n="common.workDetails">具体工作</a></p></div></article>
+            <article class="work-item"><div class="publication-meta"><strong>2023–24</strong><span>Research</span></div><div><h3><a href="./work.html?id=sztu">Research Assistant</a></h3><p><strong data-i18n="experience.sztu.org">深圳技术大学</strong></p><p data-i18n="experience.sztu.summary">开展计算病理与组织病理图像生存预测研究。</p><p class="entry-links"><a href="./work.html?id=sztu" data-i18n="common.workDetails">具体工作</a></p></div></article>
+          </div>
+        </section>
+        <section class="content-section" id="skills">
+          <h2>🛠 <span data-i18n="skills.title">技术能力</span></h2>
+          <dl class="skill-table">
+            <div><dt data-i18n="skills.ai">人工智能</dt><dd>PyTorch, GNN, Transformer, Medical Imaging</dd></div>
+            <div><dt data-i18n="skills.frontend">前端</dt><dd>React, Vue, TypeScript</dd></div>
+            <div><dt data-i18n="skills.backend">后端</dt><dd>FastAPI, Java Spring Boot, PHP Laravel, Golang</dd></div>
+            <div><dt>DevOps</dt><dd>Linux, MySQL, Git, Docker, Bash, Playwright</dd></div>
+          </dl>
+        </section>
+        <footer><span>© 2026 Jihao Li</span><span data-i18n="footer.note">本地个人介绍网站</span></footer>
+      </main>
+    </div>
+  </body>
+</html>
